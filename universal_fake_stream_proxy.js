@@ -366,7 +366,7 @@ async function handler(request) {
 // --- Platform Compatibility Boilerplate ---
 
 (async () => {
-    const PORT = 8000; // Default port
+    const PORT = 80; // Default port
 
     // Deno Runtime
     if (typeof Deno !== 'undefined' && Deno.serve) {
